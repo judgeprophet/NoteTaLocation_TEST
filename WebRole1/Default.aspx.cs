@@ -11,7 +11,23 @@ namespace WebRole1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ConnectBD();
         }
     }
+
+    /// <summary>
+		///
+		/// </summary>
+		public void ConnectBD()
+		{
+		  try
+		  {
+		    string ConnectString = "Server=tcp:r8ygkjh4fu.database.windows.net,1433;Database=[notetaloc-spike3];User ID=groupeagilealithis@r8ygkjh4fu;Password={PASS};Trusted_Connection=False;Encrypt=True;Connection Timeout=30;";
+		    using (System.Data.SqlClient.SqlConnection objConn = new System.Data.SqlClient.SqlConnection(ConnectString))
+		    {
+		    }
+		  }
+		  catch { throw; }
+}
+
 }
