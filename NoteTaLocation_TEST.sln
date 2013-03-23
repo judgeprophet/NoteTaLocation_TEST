@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "NoteTaLocation_TEST", "NoteTaLocation_TEST\NoteTaLocation_TEST.ccproj", "{B25A4BC8-29D3-4BBF-A6B3-0F4820349A16}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{5B69473E-8BB0-448E-BD4D-B334F6793D26}"
